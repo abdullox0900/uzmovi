@@ -7,21 +7,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>Uzmovi</title>
 </head>
 
 <body>
 
     <!-- HEADER -->
-    <header class="header"></header>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/newyearlogo.gif" alt="logo" width="200" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <!-- MAIN -->
-    <main class="main"></main>
+    <main class="main">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__box">
+                    <h1 class="hero__header">
+                        Lorem ipsum dolor sit Nobis, ratione!
+                    </h1>
+                    <p class="hero__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolores voluptates architecto
+                        repellat
+                        atque similique delectus velit aperiam dolorum molestias laborum ea soluta dignissimos
+                        fugiat,
+                        rerum
+                        corrupti totam. Eum, adipisci!
+                    </p>
+                    <a href="#" class="hero__link">Hello</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- MOVIE -->
+        <section class="movie">
+            <div class="container">
+                <h2 class="movie__header">Trending Movies</h2>
+
+                <ul class="movie__list">
+                    <li class="movie__item">
+                        <img class="movie__img" src="./img/unsplash.jpg" alt="" width="200" height="200">
+                        <h4 class="movie__item--header">Lorem, ipsum dolor.</h4>
+                        <p class="movie__item--year">2002</p>
+                    </li>
+                </ul>
+
+                <div class="movie__panel">
+                    <button class="close-btn">
+
+                    </button>
+                    <div class="movie__panel-box">
+                        <img class="movie__panel-img" src="./img/unsplash.jpg" alt="" width="250" height="200">
+
+                        <div class="movie__panel-box2">
+                            <h4 class="movie__panel-header">Lorem, ipsum dolor.</h4>
+                            <div class="movie__panel-box3">
+                                <p class="movie__reting">09</p>
+                                <a href="#" class="movie__link">Play Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="info">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sit aut, voluptatibus
+                        voluptas similique eveniet nemo tenetur ullam ipsam maxime.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="footer"></footer>
 
     <!-- JAVASCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
 
