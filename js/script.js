@@ -5,4 +5,5 @@ for (let movie of movies) {
 
      // CREATE
      let movirItem = document.createElement("li");
+
 }
