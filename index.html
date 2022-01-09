@@ -10,14 +10,14 @@
     <title>Uzmovi</title>
 </head>
 
-<body>
+<body class="body">
 
     <!-- HEADER -->
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
             <div class="container container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./img/newyearlogo.gif" alt="logo" width="200" height="50">
+                <a class="navbar-brand text-white" href="#">
+                    Uz<span class="header__span">movi</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -26,11 +26,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
+                        <li class="nav-item">
+                            <a class="nav-link text-white p-0 fw-bold pt-2" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white p-0 pt-2" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white p-0 pt-2" href="#">Film</a>
+                        </li>
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
             </div>
@@ -66,35 +73,14 @@
                 <h2 class="movie__header">Trending Movies</h2>
 
                 <ul class="movie__list">
-                    <li class="movie__item">
-                        <img class="movie__img" src="./img/unsplash.jpg" alt="" width="200" height="200">
-                        <h4 class="movie__item--header">Lorem, ipsum dolor.</h4>
-                        <p class="movie__item--year">2002</p>
-                    </li>
+
                 </ul>
 
-                <div class="movie__panel">
-                    <button class="close-btn">
-
-                    </button>
-                    <div class="movie__panel-box">
-                        <img class="movie__panel-img" src="./img/unsplash.jpg" alt="" width="250" height="200">
-
-                        <div class="movie__panel-box2">
-                            <h4 class="movie__panel-header">Lorem, ipsum dolor.</h4>
-                            <div class="movie__panel-box3">
-                                <p class="movie__reting">09</p>
-                                <a href="#" class="movie__link">Play Trailer</a>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="info">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sit aut, voluptatibus
-                        voluptas similique eveniet nemo tenetur ullam ipsam maxime.
-                    </p>
-
-                </div>
             </div>
+
+            <div class="movie__over">
+            </div>
+
         </section>
     </main>
 
